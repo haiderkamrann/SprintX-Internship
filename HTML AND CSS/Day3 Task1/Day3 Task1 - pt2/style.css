@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.audio{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.audio h3{
+    margin-right: 20px;
+}
+
+.video{
+    border: 1px solid black;
+    padding: 10px;
+}

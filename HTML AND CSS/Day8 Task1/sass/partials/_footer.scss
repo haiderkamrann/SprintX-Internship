@@ -1,0 +1,58 @@
+// FOOTER CSS
+footer {
+    background-color: $primary_color;
+    margin-top: $section_space;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+
+    p {
+        color: $text_color_secondary;
+        font-size: $card_main_font;
+        width: 20%;
+        text-align: center;
+        margin-top: 1%;
+    }
+}
+
+.icons {
+    margin-top: 2%;
+}
+
+.icons a {
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.icons a i {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 42px;
+    border-radius: 50%;
+}
+
+.icons a:hover i {
+    background-color: #fff;
+    transition: 1s linear;
+}
+
+.icons a.twitter i {
+    color: #0d0fa7;
+}
+
+.icons a.git i {
+    color: #333;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day20 Task1 - DOM</title>
+</head>
+<body>
+
+    <h1>This is tutorial of how we can select elements using different methods in DOM.</h1>
+
+    <h2 id="methodOne">getElementById</h2>
+    <p>In this method we choose an element by giving it a unique id.</p>
+
+    <h3 class="methodTwo">getElementByClassName</h3>
+    <p>In this method we choose an element by giving it a class. It returns a HTML Collection, which is also known as live collection</p>
+
+    <h4>getElementsByTagName</h4>
+    <p>We can choose elements using TagName, it will select all the elements matches. It returns a HTML Collection, which is also known as live collection</p>
+
+    <h5>querySelector</h5>
+    <p>In this method the querySelector chooses the element which occur first like if there is 2 h5 in my page and I select it using querySelector than it will select the first h5. It returns a <strong>NodeList</strong> containing all the elements that match the specified selector.</p>
+
+    <h6>querySelectorAll</h6>
+    <p>This method is used to select all the elements. It returns a NodeList which is not a live collection</p>
+    
+
+    <script src="domSelection.js"></script>
+    <!-- <script src="getTextContent.js"></script> -->
+</body>
+</html>

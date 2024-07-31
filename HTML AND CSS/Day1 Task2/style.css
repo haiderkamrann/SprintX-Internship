@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.audio h3{
+    margin-right: 20px;
+}

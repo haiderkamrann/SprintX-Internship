@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5bbc98;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid pink; */
+}
+
+.navbar h2 {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.container .navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.container .navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.container .navbar ul li a:hover {
+    color: gray;
+}
+
+@media screen and (min-width: 768px) {
+    .container .navbar {
+        justify-content: space-between !important;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .container .navbar {
+        justify-content: center;
+    }
+
+    .navbar nav {
+        margin-top: 20px;
+    }
+
+    .navbar ul li a {
+        text-align: center;
+    }
+}
+
+.upwork-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.left-container{
+    width: 45%;
+}
+
+.left-container h1{
+    color: #060606;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.left-container img{
+    width: 20%;
+}
+
+.left-container h2{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    width: 25%;
+}
+
+.impressions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.countries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.countries img{
+    width: 30px;
+    height: 50px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.hours img{
+    width: 30px;
+    height: 50px;
+}
+
+.impressions-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+    .left-container{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .impressions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30%;
+    }
+    .impressions-second {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .left-container{
+        width: 100%;
+    }
+    .left-container h1{
+        font-size: 1.2rem;
+    }
+    .left-container h2{
+        font-size: 0.8rem;
+    }
+    .left-container img{
+        width: 35%;
+    }
+    .right-container{
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .left-container{
+        width: 100%;
+    }
+    .left-container h1{
+        font-size: 1.2rem;
+    }
+    .left-container h2{
+        font-size: 0.8rem;
+    }
+    .left-container img{
+        width: 35%;
+    }
+    .right-container{
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .left-container h1{
+        font-size: 1rem;
+    }
+    .left-container h2{
+        font-size: 0.6rem;
+    }
+    .left-container img{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .left-container h1{
+        font-size: 0.8rem;
+    }
+    .left-container h2{
+        font-size: 0.5rem;
+    }
+    .left-container img{
+        width: 35%;
+    }
+}

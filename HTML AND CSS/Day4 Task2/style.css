@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    padding: 8px 0 10px 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid pink; */
+}
+
+.navbar h2 {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar ul li a:hover {
+    color: gray;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        justify-content: space-between !important;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar nav {
+        margin-top: 20px;
+    }
+
+    .navbar ul li a {
+        text-align: center;
+    }
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #59b894;
+    min-width: 22%;
+    /* min-height: 77vh; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.sidebar-content {
+    width: 80%;
+}
+
+.sidebar-menu {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 80%;
+}
+
+.sidebar-menu ul li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    text-align: left;
+}
+
+.sidebar-menu ul li a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sidebar-menu ul li a:hover {
+    color: white;
+}
+
+.sidebar p {
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 12px;
+}
+
+/* HOME SECTION CSS */
+
+.home {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/section-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    justify-content: center;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.social-links a i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .home-content h1 {
+        font-size: 20px;
+    }
+    .home-content p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sidebar-menu ul li a {
+        font-size: 8px;
+    }
+
+    .sidebar p {
+        font-size: 8px;
+    }
+
+    .home-content h1 {
+        font-size: 16px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+    }
+}
+
+.footer-content{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px 0px;
+}

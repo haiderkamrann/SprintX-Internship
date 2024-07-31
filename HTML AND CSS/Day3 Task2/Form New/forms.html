@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day2 Task1 - Form </title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="user-form">
+
+            <h1 class="main-heading">Registration Form</h1>
+
+            <div class="name-info mb">
+                <label for="name">Enter your Name:<span>*</span> </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class="email-info mb">
+                <label for="email">Enter your Email:<span>*</span> </label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="pass-code mb">
+                <label for="password">Enter Password:<span>*</span> </label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <label for="query">Any Query Type Here: </label>
+            <textarea name="query" id="query" cols="40" rows="10" maxlength="200"></textarea>
+
+            <div class="count-selection">
+                <label for="country"><strong> Choose your Country: </strong></label>
+                <select name="country" id="country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="UK">UK</option>
+                </select>
+            </div>
+
+                <p class="mt"><strong> Select Gender: </strong></p>
+                <div class="gender-selection">
+                    <div class="gender-m">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="gender-f">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+            <p class="mt"><strong>Choose your Favourite Hobbies: </strong> </p>
+            <div class="hobbies-selection">
+                <div class="hobbyOne">
+                    <input type="checkbox" name="hobbies" id="hobbyOne">
+                    <label for="hobbyOne">Writing</label>
+                </div>
+
+                <div class="hobbyTwo">
+                    <input type="checkbox" name="hobbies" id="hobbyTwo">
+                    <label for="hobbyTwo">Photography</label>
+                </div>
+                <div class="hobbyThree">
+                    <input type="checkbox" name="hobbies" id="hobbyThree">
+                    <label for="hobbyThree">Art</label>
+                </div>
+            </div>
+            <div class="btn-submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
