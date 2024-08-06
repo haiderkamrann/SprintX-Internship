@@ -18,7 +18,7 @@ beforeAll(() => {
                                 const newLi = document.createElement('li');
                                 newLi.textContent = 'Jquery';
                                 ul.appendChild(newLi);
-                    }
+                    } 
                 }
                 </script>
             </body>

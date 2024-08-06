@@ -1,4 +1,4 @@
-// let btn = document.getElementById('submit');
+let btn = document.getElementById('submit');
 
 document.addEventListener('DOMContentLoaded', () => {
     let btn = document.createElement("button");

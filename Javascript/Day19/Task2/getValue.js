@@ -1,9 +1,11 @@
+// Write a function that takes an object and a key as input.
+// Implement logic to return the value associated with the key.
+
 const obj = {
     studentName: 'Haider',
     rollNo: '21',
     course: 'Computer Science',
 
-    //method
     getDetails: function() {
         console.log(`Student Details: 
         Name: ${this.studentName} 
@@ -17,7 +19,7 @@ const obj = {
     }
 }
 
-//Function to check whether a object with the key exists!
+//Function to check whether a object with the key exists...
 function getValue(obj, key){
     if(obj.hasOwnProperty(key)){
         return obj[key];
@@ -30,8 +32,8 @@ function getValue(obj, key){
 const key = "studentName";
 const value = getValue(obj, key)
 console.log(`the value against the key ( ${key} ) is: ${value}`);
-obj.getDetails(); 
-obj.updateCourse('Data Science');
+// obj.getDetails(); 
+// obj.updateCourse('Data Science');
 
 module.exports = getValue;
 

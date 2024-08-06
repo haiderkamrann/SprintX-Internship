@@ -1,3 +1,5 @@
+// Write a script that defines an object with various properties and methods.
+
 const obj = {
     name: 'Haider',
     age: 23,
@@ -5,7 +7,7 @@ const obj = {
 
     getDetails: function() {
         console.log(`Student Details: 
-        Name: ${this.studentName} 
+        Name: ${this.name} 
         Age: ${this.age} 
         Occupation: ${this.occupation}`);
     },

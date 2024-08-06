@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Integration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <h1>Pakistan's Famous Cities Weather Conditions</h1>
+        <div class="container">
+            <div class="city-list" id="cityList"></div>
+        </div>
+        <div class="search-container">
+            <h3>Type the city name to get the Weather Update...</h2>
+                <input type="search" id="searchQuery" placeholder="Enter city name ....">
+                <button id="searchButton">Search</button>
+
+                <div class="results" id="results"></div>
+        </div>
+    </div>
+
+    <script src="./apiIntegration.js" defer></script>
+    <script src="./searchPage.js" defer></script>
+</body>
+
+</html>

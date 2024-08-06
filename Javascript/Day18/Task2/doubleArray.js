@@ -1,3 +1,5 @@
+//Implement logic to return a new array with all elements doubled.
+
 let arr = [1, 2, 3, 4, 5];
 
 const doubleArray = (arr) => {

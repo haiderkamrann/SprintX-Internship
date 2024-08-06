@@ -1,0 +1,52 @@
+.city-list{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-item{
+    // border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 15px 20px rgba(0,0,0,0.5);
+    padding: 30px 40px;
+}
+
+.result-item{
+    // border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 15px 20px rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    width: 15%;
+}
+
+
+.search-container{
+    margin-top: 50px;
+}
+
+.main-container{
+    width: 80%;
+    // border: 1px solid red;
+    box-shadow: 10px 15px 20px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#searchQuery {
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+#searchButton{
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: green;
+    color: white;
+}
